@@ -78,7 +78,7 @@ const User = () => {
             <div className="2-full rounded-lg shadow-md bg-base-100 stats">
               {location && (
                 <div className="state">
-                  <div className="stat-title text-md">Location`</div>
+                  <div className="stat-title text-md">Location</div>
                   <text-lg className="stat-value">{location}</text-lg>
                 </div>
               )}
