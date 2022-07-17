@@ -82,6 +82,21 @@ const User = () => {
                   <text-lg className="stat-value">{location}</text-lg>
                 </div>
               )}
+
+              {twitter_username && (
+                <div className="stat">
+                  <div className="stat-title text-md">Twitter</div>
+                  <div className="text-lg stat-value">
+                    <a
+                      href={`https://twitter.com/${twitter_username}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {twitter_username}
+                    </a>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
